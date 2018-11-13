@@ -9,7 +9,7 @@ export default function HooksCounter() {
 
   return (
     <main className='wrapper'>
-      <h1>Another Counter, but with REACT HOOKS!</h1>
+      <header>Another Counter, but with REACT HOOKS!</header>
       <section className='count'>
         {count}
       </section>
