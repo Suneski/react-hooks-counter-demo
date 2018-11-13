@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 export default function HooksCounter() {
   const [count, setCount] = useState(0);
@@ -9,7 +9,7 @@ export default function HooksCounter() {
 
   return (
     <main className='wrapper'>
-      <header>Another Counter, but with REACT HOOKS!</header>
+      <h1>Another Counter, but with REACT HOOKS!</h1>
       <section className='count'>
         {count}
       </section>

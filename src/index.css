@@ -34,11 +34,15 @@ code {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: green;
+  color: limegreen;
 }
 
 .count {
   font-size: 500px;  
+}
+
+h1 {
+  font-size: 50px;
 }
 
 button {
@@ -46,9 +50,4 @@ button {
   width: 250px;
   font-size: 50px;
   margin: 0 20px;
-}
-
-header {
-  font-size: 60px;
-  text-align: center;
 }
