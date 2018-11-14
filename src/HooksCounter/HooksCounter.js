@@ -8,9 +8,9 @@ export default function HooksCounter() {
   const increaseCount = () => setCount(count + 1);
 
   return (
-    <main className='wrapper'>
+    <main className="wrapper">
       <h1>Another Counter, but with REACT HOOKS!</h1>
-      <section className='count'>
+      <section className="count">
         {count}
       </section>
       <section>
